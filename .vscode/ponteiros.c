@@ -18,7 +18,7 @@ void mudarpalavra(char palavra[]){
     }   
 }
 
-// segunda forma inverção pela função 
+// segunda forma inverção pela função
 char* mudarpalavra2(char palavra[]){
     int i, aux,fim, tam=strlen(palavra);
     char *novo=calloc(tam+1, sizeof(char));
